@@ -7,4 +7,4 @@ The javascript code inside this template automatically sets the url displayed on
 ## Screenshot
 ![Screenshot](/domain-landing-preview.png?raw=true "Screenshot")
 
-[wpshield]: https://avoori.com/
+[wpshield]: https://wpshield.org/

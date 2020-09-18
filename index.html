@@ -83,7 +83,7 @@
                     padding-top: 10px;
                     font-size: 18px;
                 }
-                .avoori-logo {
+                .wpshield-logo {
                     margin: 20px;
                     max-width: 40px;
                 }
@@ -105,16 +105,18 @@
 </head>
 <body>
         <div class="wrap">
-                <a href="https://avoori.com/"><img class="avoori-logo" src="https://avoori.com/wp-content/themes/avooritheme/assets/img/favicon.png" alt="avoori.com logo"></a>
+                <a href="https://wpshield.org/"><img class="wpshield-logo" src="https://wpshield.org/wp-content/uploads/wpshield-50D2E3-100px.png" alt="wpshield.org logo"></a>
                 <div class="domain">
-                        <h1 id="site_domain">mydomain.com</h1>
+                        <h1 id="site_domain">Coming Soon!</h1>
                 </div>
                 <div class="under-construction">
                         <p>We're just getting ready, check back soon.</p>
                 </div>
         </div>
         <script>
-            document.getElementById("site_domain").innerHTML = window.location.hostname;
+            var domainName = window.location.hostname;
+            document.getElementById("site_domain").innerHTML = domainName;
+            document.title = domainName + " - Under Construction";
         </script>
 </body>
 </html>
